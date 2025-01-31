@@ -1,0 +1,11 @@
+
+sourceFolder: "/docker"
+destinationFolder: "/path/to/your/backup/folder"
+
+compose:
+  backupFolder: "/docker"
+  keep: 2
+
+config:
+  backupFolder: "/config"
+  keep: 5
