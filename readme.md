@@ -1,6 +1,6 @@
 # Installation
 1. Pull the GitHub repo to your Docker server
-2. Edit the Source and Destination folder in main.py
+2. Check the Settings.yml and make changes for your system
 3. Run: `sudo systemctl status cron` to check if cron is running
 4. Start cron: `sudo systemctl start cron`
 5. set the python script to executeable `sudo chmod +x /path/to/your/script.py`
