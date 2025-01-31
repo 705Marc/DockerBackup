@@ -1,5 +1,5 @@
 # Installation
-1. Pull the GitHub repo to your Docker server
+1. Clone the GitHub repo to your Docker server
 2. Check the Settings.yml and make changes for your system
 3. Run: `sudo systemctl status cron` to check if cron is running
 4. Start cron: `sudo systemctl start cron`
